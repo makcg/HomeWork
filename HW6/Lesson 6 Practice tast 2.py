@@ -6,11 +6,11 @@
 # студентов, которые изучают Python или Java
 
 all_stydents = {'Ivanov Sergei', 'Petrov Andrei', "Simonenko Anton", 'Kizil Egor', 'Vorobei Ivan', 'Zolotarev Vladimir',
-                'Samsonov Emil', 'Babich Dmitrii', "Dimon )))))"}
-Python = {'Ivanov Sergei', 'Vorobei Ivan', "Dimon )))))", 'Petrov Andrei'}
-FrontEnd = {'Petrov Andrei', "Dimon )))))", 'Zolotarev Vladimir', }
-FullStack = {'Simonenko Anton', 'Samsonov Emil', "Dimon )))))", 'Kizil Egor'}
-Java = {'Kizil Egor', 'Babich Dmitrii', "Dimon )))))"}
+                'Samsonov Emil', 'Babich Dmitrii', "Dimon"}
+Python = {'Ivanov Sergei', 'Vorobei Ivan', "Dimon", 'Petrov Andrei'}
+FrontEnd = {'Petrov Andrei', "Dimon ", 'Zolotarev Vladimir', }
+FullStack = {'Simonenko Anton', 'Samsonov Emil', "Dimon", 'Kizil Egor'}
+Java = {'Kizil Egor', 'Babich Dmitrii', "Dimon"}
 
 print('Stydents who study in two or more group: ' + str(
     (Python & FrontEnd) | (Python & FullStack) | (Python & Java) | (FrontEnd & FullStack) | (FrontEnd & Java) | (
